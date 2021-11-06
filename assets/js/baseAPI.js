@@ -4,7 +4,7 @@
 $.ajaxPrefilter( function(options){
   options.url = 'http://api-breakingnews-web.itheima.net' + options.url;
   // console.log(options);
-  console.log(options.url );
+  // console.log(options.url );
 
   // 统一为有权限的接口，设置headers请求头
   if(options.url.indexOf('/my/') !== -1) {
